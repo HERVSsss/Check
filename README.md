@@ -16,6 +16,7 @@ On successful execution of the function, event is generated
    function buyTokens(uint256 amount)
 ```
    `amount` it is your deposit in BUSD. Your tokens will be locked in this contract for period of time
+   
 On successful execution of the function, event is generated
 `Sold(_msgSender, scaledAmount)`
    
@@ -23,6 +24,7 @@ On successful execution of the function, event is generated
 ```solidity
    function unlock()
 ```
+
 On successful execution of the function, event is generated
 `UnlockTokensToBuyers(_msgSender, unlockToBalance)`
 
@@ -31,6 +33,7 @@ On successful execution of the function, event is generated
    function withdraw(uint256 _numberOfTokens)
 ```
    `_numberOfTokens` - amont of tokens which you would like to spend
+   
 On successful execution of the function, event is generated
 ` Withdraw (_msgSender, _numberOfTokens)`
 
