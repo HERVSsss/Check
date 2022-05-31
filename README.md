@@ -5,7 +5,7 @@
 ```solidity
     function addWhitelist(address _address)
 ```
-    In this case, `address` is address of user, whose allowed to buy tokens.
+   In this case, `address` is address of user, whose allowed to buy tokens.
     
 On successful execution of the function, event is generated
 `SwapStart (eventHash, _depositCount, vaultChainID, msg.sender, to, amount)`
